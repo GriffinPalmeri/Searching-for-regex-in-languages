@@ -1,0 +1,2 @@
+Python 3 program (in regex.py) Defines a class named RegEx. 
+The constructor for this class takes as its parameter the name of a file, and it opens and reads an alphabet and a regular expression from the file. The constructor then converts the regular expression to an NFA (by calling a to_nfa method that you will write), and then converts the NFA to a DFA. The class should also have a method called simulate that takes as its parameter a string, and determines if the string is in the language of the regular expression.
